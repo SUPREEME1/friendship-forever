@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship Forever</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-heart"></i>
+                <h1>Friendship Forever</h1>
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="subtitle">How well do we know each other?</div>
+        </header>
+
+        <main class="main-content">
+            <section class="gallery-section">
+                <div id="image-gallery" class="image-gallery"></div>
+                <div class="gallery-controls">
+                    <button id="prev" class="nav-button"><i class="fas fa-chevron-left"></i></button>
+                    <button id="next" class="nav-button"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </section>
+
+            <section class="quiz-section">
+                <h2>Friend Quiz</h2>
+                <div id="question" class="question"></div>
+                <div id="options" class="options"></div>
+                <div id="result" class="result"></div>
+                <button id="retry" class="retry-button">Try Again</button>
+            </section>
+
+            <section class="songs-section">
+                <h2>Our Favorite Songs</h2>
+                <div id="songs-container" class="songs-container"></div>
+            </section>
+
+            <section class="timeline-section">
+                <h2>Our Friendship Timeline</h2>
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-events" id="timeline"></div>
+                </div>
+            </section>
+
+            <section class="notes-section">
+                <h2>Sweet Messages Archive</h2>
+                <div class="notes-container">
+                    <textarea id="messageInput" placeholder="Write a sweet message or memory..."></textarea>
+                    <div class="pdf-buttons">
+                        <button class="nav-button" onclick="saveMessage()">
+                            <i class="fas fa-save"></i> Save Message
+                        </button>
+                        <button class="nav-button" onclick="generatePDF()">
+                            <i class="fas fa-file-pdf"></i> Create PDF
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>From me <i class="fas fa-heart"></i> to you</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
