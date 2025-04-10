@@ -32,11 +32,11 @@ const config = {
         { title: "September Song by JP Cooper", url: "https://songwhip.com/jp-cooper/september-song" }
     ],
     timeline: [
-        { year: "2022", description: "Our first picture together as we made our friendship official", image: "images/IMG-20250331-WA0003.jpg" },
-        { year: "2022", description: "Our first knight out", image: "images/IMG-20250401-WA0018.jpg" },
-        { year: "2023", description: "Late-night chats about everything", image: "images/IMG-20250401-WA0019.jpg" },
-        { year: "2023", description: "Our first movie night", image: "images/IMG-20250401-WA0024.jpg" },
-        { year: "2024", description: "First trip together", image: "images/IMG-20250401-WA0023.jpg" }
+        { year: "2021", description: "Mandela Day marked the start of someting special - our friendship", image: "images/IMG-20250407-WA0002.jpg" },
+        { year: "2022", description: "That year, our bond became something more - a friendship we promised to cherish, built on trust, laughter, and countless shared moments.", image: "images/IMG-20250331-WA0003.jpg" },
+        { year: "2023", description: "Last day at camp, a quiet farewell to unforgettable memories. Here's to holding onto the laughter and stories we shared.", image: "images/IMG-20250407-WA0001.jpg" },
+        { year: "2024", description: "First trip together", image: "images/IMG-20250401-WA0023.jpg" },
+        { year: "2025", description: "To make more memories together", image: "images/IMG-20250407-WA0000.jpg" }
     ],
     questions: [
         {
